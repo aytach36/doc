@@ -1,0 +1,75 @@
+nav {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+}
+
+.upper-nav {
+    border-bottom: 1px solid #868e96;
+}
+
+.logo-nav {
+    height: 12.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav img {
+    height: 8rem;
+}
+
+.logo-box {
+    margin-right: auto;
+}
+
+.logo-info {
+    display: flex;
+    height: 8rem;
+    align-items: flex-start;
+    margin-left: 6.4rem;
+}
+
+.info-icon ion-icon {
+    margin-top: 1.6rem;
+    height: 3rem;
+    width: 3rem;
+    color: #5bb7ed;
+}
+
+.info-description {
+    font-size: 1.6rem;
+    line-height: 2;
+    margin-left: 3.2rem;
+}
+
+.info-des-up {
+    font-weight: 700;
+    color: #868e96;
+}
+
+.info-des-down {
+    color: #adb5bd;
+}
+
+
+.nav-links {
+    height: 6.4rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li:not(:first-child) {
+    margin-left: 4.8rem;
+}
+
+.nav-links a:visited,
+.nav-links a:link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #868e96;
+    transition: all 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    color: #5bb7ed;
+}

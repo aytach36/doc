@@ -1,0 +1,41 @@
+.services {
+    border-bottom: 1px solid #9ea5ab;
+    margin-bottom: 12.8rem;
+}
+
+.service-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.service {
+    border-left: 1px solid #9ea5ab;
+    text-align: center;
+    cursor: pointer;
+}
+
+.service:last-child {
+    border-right: 1px solid #9ea5ab;
+}
+
+.service-icon ion-icon {
+    height: 6rem;
+    width: 6rem;
+    color: #5bb7ed;
+    margin-top: 4.8rem;
+    transition: all 0.5s;
+}
+
+.service p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8;
+    font-weight: 600;
+    color: #868e96;
+    padding: 0 2.4rem;
+    padding-bottom: 6.4rem;
+}
+
+.service:hover ion-icon{
+    color:#f03e3e;
+}
