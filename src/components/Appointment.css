@@ -1,0 +1,100 @@
+.appointment-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 40rem;
+}
+
+.work-hours {
+    padding: 4.8rem;
+    text-align: center;
+    background-color: #e9ecef;
+    color: #343a40;
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-hours h2 {
+    margin-bottom: 0;
+    color: #5bb7ed;
+}
+
+.work-hours h2 span {
+    color: #343a40;
+}
+
+
+
+.work-hours-description {
+    margin: 4.8rem 0;
+}
+
+.work-hour {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid #9ea5ab;
+}
+
+.appointment-form {
+    background-color: #5bb7ed;
+    text-align: center;
+    color: #fff;
+    padding: 4.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.appointment-form .heading-secondary {
+    color: #fff;
+}
+
+.appointment-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem
+}
+
+
+
+.appointment-form input {
+    background-color: #5bb7ed;
+    /* padding: 2.4rem 3.2rem; */
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 2rem;
+    margin: 0 2.4rem;
+    color: #fff;
+}
+
+.appointment-form input::placeholder {
+    color: #fff;
+}
+
+.button-div {
+    margin-top: 4.8rem;
+    grid-column: 1/-1;
+}
+
+.button-div button {
+    background-color: #5bb7ed;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button-div button:hover {
+    background-color: #6bbeef;
+}
+
+
+
+.appointment-image img {
+    width: 100%;
+}
