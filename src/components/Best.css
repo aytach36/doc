@@ -1,0 +1,74 @@
+.best {
+    margin: 8rem 0;
+}
+
+.best-title {
+    text-align: center;
+    color: #495057;
+}
+
+.best-grid {
+    margin-top: 6.4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 6.4rem;
+    row-gap: 8rem;
+}
+
+.best-card {
+    position: relative;
+    border: 1px solid #868e96;
+    border-radius: 8px;
+}
+
+.best-card:hover .best-icon{
+    background-color: #f03e3e;
+}
+.best-card:hover .best-card-title::after{
+    width: 4.8rem;
+    border-bottom: 3px solid #f03e3e;;
+}
+
+.best-card-title {
+    margin-top: 6.4rem;
+    /* margin-bottom:2.4rem; */
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom-width: 3rem;
+    color: #343a40;
+}
+
+.best-card-title::after {
+    content: "";
+    border-bottom: 3px solid #5bb7ed;
+    padding: 0.4rem;
+    display: block;
+    width: 2.4rem;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.best-icon {
+    border-radius: 50%;
+    background-color: #5bb7ed;
+    display: inline-block;
+    padding: 1rem;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, -50%);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.best-icon ion-icon {
+    width: 5rem;
+    height: 5rem;
+    color: #fff;
+}
+.best-card-description{
+    padding: 2.4rem 8rem;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 400;
+    color: #495057;
+    margin-bottom:4.8rem
+}
